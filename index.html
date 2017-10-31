@@ -1,0 +1,73 @@
+<! DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<nav class="navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <body data-spy="scroll" data-target="#navbar" data-offset="50">
+      <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#navbarr">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+       </button>
+      <p class="navbar-brand" style="color:#4169E1;">Agbaeze Emmanuel</p>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarr">
+            <ul class="navbar-nav w3-margin-right right ">
+              <li><a href="#about"><i class= "fa fa-info-circle"></i> ABOUT</a></li>
+              <li><a href="#portfolio"><i class='fa fa-briefcase'> </i> PORTFOLIO</a></li>
+              <li><a href="#contact"><i class="fa fa-phone"></i> CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section id="about">
+  <h3>ABOUT ME</h3>
+  <div class="row">
+<div class="w3-margin">
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1275455/profile/profile-80.jpg?100000"  alt="Agbaeze Emmanuel" class="img responsive center-block col-md-3" id="my-profile-pic"/>
+  <p class="flow-text text-primary " >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, </p>
+  </div>
+    </section>
+  <section id="portfolio">
+    <h3>Portfolio</h3>
+    <div class ="row">   
+      <div class="container col-md-4 col-xs-6">
+        <div class="thumbnail">
+ <a href="https://codepen.io/Agik/pen/ZyLzwz" target ="_blank">
+   <img src="https://www.w3schools.com/css/img_avatar.png" class="img img-responsive" id = "ppic">
+      <div class="caption">
+      <h2> Tribute Page </h2>
+   </div></a>
+   </div>
+   </div>
+        </div>
+          <section id="contact">
+    <h2 class="center">Contact Me</h2>
+   <div class="col s12 m6 l6">
+             <form id="contactForm" class ="flow-text container" novalidate="">
+             <div class="input-field"> <label for="name">Name</label>
+          <input id="name" required="" type="text">
+       </div>
+       <div class="input-field">
+          <label for="email"> E-mail Address</label>
+          <input id="email"  required="" type="email">
+      </div>
+      <div class="input-field">
+               <label for="phone">Phone Number</label>
+          <input id="phone" required="" type="tel">
+        </div>
+        <div class="input-field">
+               <label for="message">Message</label>
+               <textarea id="message" rows="5" class="materialize-textarea" required=""></textarea>
+             </div>
+        <button type="submit" class = "waves-effect waves-light btn ">Send</button>
+      </form>
+     </div> 
+  </section>
+       </body>
+       </html>

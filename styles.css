@@ -1,0 +1,150 @@
+section {
+  border-color: black;
+  border-width: 2px;
+  margin-top: 70px;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-style: dotted;
+}
+
+body {
+  padding-top: 70px !important;
+}
+
+/* begin background animation*
+@-webkit-keyframes AnimationName {
+    0%{background-position:34% 0%}
+    50%{background-position:67% 100%}
+    100%{background-position:34% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:34% 0%}
+    50%{background-position:67% 100%}
+    100%{background-position:34% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:34% 0%}
+    50%{background-position:67% 100%}
+    100%{background-position:34% 0%}
+}*/
+#ppic {
+  width: 50%;
+  height: 50%;
+}
+
+.w3-pink {
+  border-radius: 10%;
+  background-color: #4169e1 !important;
+}
+
+body {
+  color: #888;
+  background-color: ccc5c5 !important;
+}
+
+.navbar-inverse {
+  background-color: white;
+  border: none;
+  border-radius: 0;
+  color: #4169e1;
+}
+
+.navbar-fixed-top.scrolled {
+  box-shadow: 0px 1px 8px black;
+  transform: box-shadow 700ms linear;
+}
+
+.nav.navbar-nav.navbar-right li a {
+  backgorund-color: #4169e1;
+  color: #888888;
+  font-weight: bold;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+  transition: 0.3s;
+  color: #4169e1;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.navbar-toggle {
+  background-color: #4169e1;
+}
+
+#my-profile-pic {
+  border-radius: 50%;
+  width: 200px;
+  height: 140px;
+}
+
+.text-primary {
+  color: #4169e1;
+}
+
+h2,
+h3 {
+  color: #1240cc;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+hr.star-bright,
+hr.star-dark {
+  margin: 40px auto 30px;
+  padding: 0px;
+  max-width: 512px;
+  border-right: 0px none;
+  border-width: 5px 0px 0px;
+  border-style: solid none none;
+  border-image: none;
+  text-align: center;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-right: 0px none;
+  border-width: 1px 0px 0px;
+  border-style: solid none none;
+  border-color: #eeeeee -moz-use-text-color -moz-use-text-color;
+  -moz-border-top-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  border-image: none;
+}
+
+#contactForm {
+  width: 100%;
+  height: 15px;
+}
+
+.btn-primary {
+  background-color: #a9a9a9;
+}
+
+.btn-primary:hover {
+  background-color: #4169e1;
+}
+
+section {
+  border-top: 3px;
+  border-bottom: 3px;
+  border-color: #a9a9a9;
+}
+
+.caption {
+  border-radius: none !important;
+}
+
+.thumbnail {
+  margin: auto;
+  padding: auto;
+  border-radius: none !important;
+}
+
+.form-inline .form-control {
+  width: 256px;
+}
